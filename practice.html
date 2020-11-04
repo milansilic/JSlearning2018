@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta charset="utf-8">
+	<title>Obuka vežba</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<main>
+	<a href="index.html" class="ico1"></a><a href="practice.html" class="ico2"></a>
+	<header>Obuka programskih jezika</header>
+	<nav class="navico">
+		<ul>
+			<li><a href="index.html" class="aico1"></a></li>
+			<li><a href="practice.html" class="aico2"></a></li>
+		</ul>
+	</nav>
+	<nav class="navmain">
+		<ul>
+			<li><a href="html.html">HTML</a></li>
+			<li><a href="css.html">CSS</a></li>
+			<li><a href="js.html">JavaScript</a></li>
+		</ul>
+	</nav>
+<!––VEŽBA 1––>
+	<section class="prac flexcolw">
+		<h1 class="h1 poi" id="r1"><span class="u">VEŽBA 1</span>:</br>pokretajne JS funkcije klikom na dugme</h1>
+		<section class="flexroww">
+			<div class="pracEg">
+				<div class="pracEgdiv fltexcen" id="div1">promeni HTML tekst!</div>
+				<button type="button" id="but1">.innerHTML="</button>
+			</div>
+			<div class="pracEg">
+				<div class="pracEgdiv fltexcen" id="div2">promeni<br/>CSS<br/>property</div>
+				<button type="button" id="but2">.style.fontSize='</button>
+			</div>
+			<div class="pracEg">
+				<div class="pracEgdiv fltexcen" id="div3">promeni id elementa</div>
+				<button type="button" id="but3">.id='</button>
+			</div>
+			<div class="pracEg">
+				<div class="pracEgdiv fltexcen" id="div4">promeni<br/>klasu<br/>elementa</div>
+				<button type="button" id="but4">.className='</button>
+			</div>
+		</section>	
+	</section>
+<!––VEŽBA 2––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 2</span>:</br>menjamo više ID-eva klikom na tab</h1>
+		<section class="canv1">
+			<section class="canv1btns">
+				<div id="but5">Prvi div</div>
+				<div id="but6">Drugi div</div>
+				<div id="but7">Treći div</div>
+			</section>
+			<section class="canv1cont">
+				<div id="div5">Defolt vidljiv "div", za razliku od druga dva. Klikom na druga dva taba ovaj div dobija id sa display:none; ...</div>
+				<div id="div6">Ovaj "div" ima defolt ID sa display:none;. Klikom na svoj tab dobija prazan id, postaje vidljiv, a drugi ne!</div>
+				<div id="div7">Ovaj "div" ima defolt ID sa display:none;. Klikom na svoj tab dobija prazan id, postaje vidljiv, a drugi ne!</div>
+			</section>
+		</section>	
+	</section>
+<!––VEŽBA 3––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 3</span>:</br>klikom menjamo src pomoću if else</h1>
+		<section class="flexroww">
+			<div><img class="img1b" src="img/arrowL.png" width="50" height="150"></div>
+			<div><img id="img1" src="img/leg1.png" width="200" height="200"></div>
+			<div><img class="img1b" src="img/arrowR.png" width="50" height="150"></div>
+		</section>
+	</section>
+<!––VEŽBA 4––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 4</span>:</br>funkcija koja dodaje klasu div-u ako ista ne postoji i briše je ukoliko postoji {if else}</h1>
+		<div id="div8"><span style="text-decoration:underline; font-size:20px;">Moje vodilje</span>:<br/>
+			1.Besprekorno koristi svoju reč.<br/>2.Teži prvo da razumeš druge, pa<br/>tek onda da drugi razumeju tebe.<br/>
+			3.Radi nešto samo ako želiš da radiš<br/>4.Bilo da misliš da možeš...<br/>ili da ne možeš... u pravu si!</div>
+		<button type="button" id="but8">prikaži više</button>
+	</section>
+<!––VEŽBA 5––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 5</span>:</br>jednostavni kalkulator (parseFloat, isNaN)</h1>
+		<div class="flexrow"><p class="title1">prvi broj:</p><input type="text" id="inp1"/></div>
+		<div class="flexrow"><p class="title1">drugi broj:</p><input type="text" id="inp2"/></div>
+		<div class="flexrow"><p class="title1">rezultat:</p><p id="outp1">0</p></div>
+		<div><button class="but9">+</button><button class="but9">-</button><button class="but9">*</button><button class="but9">/</button></div>
+	</section>
+<!––VEŽBA 6––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 6</span>:</br>novim vrednostima zamenjujemo odabrane u padajućem meniju (switch)</h1>
+		<div class="flexrow">
+			<p class="title2">DAN rođenja:</p>
+			<form class="select1">
+				<select class="select1" id="selectpolje1">
+					<option class="select1"></option>
+					<option>1</option><option>2</option><option>3</option><option>4</option>
+					<option>5</option><option>6</option><option>7</option><option>8</option><option>9</option>
+					<option>10</option><option>11</option><option>12</option><option>13</option><option>14</option>
+					<option>15</option><option>16</option><option>17</option><option>18</option><option>19</option>
+					<option>20</option><option>21</option><option>22</option><option>23</option><option>24</option>
+					<option>25</option><option>26</option><option>27</option><option>28</option><option>29</option>
+					<option>30</option><option>31</option>
+				</select>
+			</form>
+		</div>
+		<div class="flexrow">
+			<p class="title2">MESEC rođenja:</p>
+			<form>
+				<select class="select1" id="selectpolje2">
+					<option></option><option>Januar</option><option>Februar</option><option>Mart</option>
+					<option>April</option><option>Maj</option><option>Jun</option><option>Jul</option>
+					<option>Avgust</option><option>Septembar</option><option>Oktobar</option>
+					<option>Novembar</option><option>Decembar</option>
+				</select>
+			</form>					
+		</div>
+		<h1 class="h2">legenda:</h1>
+		<section class="text1 flexroww">
+			<div class="div9 flexrow">
+				<div>1.</br>2.</br>3.</br>4.</br>5.</br>6.</br>7.</br>8.</br>9.</br>10.</br></div>
+				<div>hrabri</br>uplakani</br>srećni</br>razmaženi</br>brbljivi</br>mrzovoljni</br>kategorični</br>
+					vragolasti</br>tvrdoglavi</br>omamljeni
+				</div>
+			</div>
+			<div class="div9 flexrow">
+				<div>11.</br>12.</br>13.</br>14.</br>15.</br>16.</br>17.</br>18.</br>19.</br>20.</br></div>
+				<div>pomahnitali</br>onemoćali</br>ozebli</br>prepaljeni</br>nepodnošljivi</br>naivni</br>lakoverni</br>
+					prevrtljivi</br>budalasti</br>prebogati
+				</div>
+			</div>
+			<div class="div9 flexrow">
+				<div>21.</br>22.</br>23.</br>24.</br>25.</br>26.</br>27.</br>28.</br>29.</br>30.</br>31.</div>
+				<div>pijani</br>prelepi</br>smrdljivi</br>zavodljivi</br>nastrani</br>namazani</br>boginjavi</br>
+					nalickani</br>dosetljivi</br>bodljikavi</br>maljavi
+				</div>
+			</div>
+			<div class="div9 flexrow">
+				<div>JAN:</br>FEB:</br>MAR:</br>APR:</br>MAJ:</br>JUN:</br>JUL:</br>AVG:</br>SEP:</br>OKT:</br>NOV:</br>DEC:</div>
+				<div>brzi gonzales</br>vitez koja</br>dambldor</br>optimus prajm</br>mornar popaj</br>hari poter</br>hordak</br>atomski mrav</br>bibop</br>snorkijevac</br>frodo bagins</br>kapetan kuka</div>
+			</div>
+		</section>
+		<p id="outp2">???</p>
+		<button type="button" id="but10">saznaj šta si!</button>
+	</section>
+<!––VEŽBA 7––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 7</span>:</br>DISCO! (setTimeout, setInterval)</h1>
+		<div id="discofloor">
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+			<div class="kvadrat"></div>
+		</div>
+		<section>
+			<button onclick="startdisco()">Disco!!!</button>
+			<button onclick="stopdisco()" >fajront</button>
+		</section>
+	</section>
+<!––VEŽBA 8––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 8</span>:</br>kontrola objekta tastarutom (a,w,d,s,r)</h1>
+		<div id="canvas"><div id="ball"></div></div>
+		<section>
+			<button type="button" onclick="gON()">gravity ON</button>
+			<button type="button" onclick="gOF()">gravity OFF</button>
+		</section>
+	</section>
+<!––VEŽBA 9––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 9</span>:</br>Foto galerija (this, getAttribute, setAttribute)</h1>
+		<section>
+			<div><img src="img/zoombrocoli.jpg" id="img3" width="600" height="450"></div>
+			<div>
+				<img src="img/zoombrocoli.jpg" class="img4">
+				<img src="img/zoomalmond.jpg" class="img4">
+				<img src="img/zoombobice.jpg" class="img4">
+				<img src="img/zoomcarrot.jpg" class="img4">
+				<img src="img/zoomginger.jpg" class="img4">
+				<img src="img/zoomgoji.jpg" class="img4">
+				<img src="img/zoomgraviola.jpg" class="img4">
+				<img src="img/zoomwatermelon.jpg" class="img4">
+			</div>
+		</section>
+	</section>
+<!––VEŽBA 10––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 10</span>:</br>simple image slider(setTimeout, setInterval)</h1>
+		<div id="wrap1">
+			<img class="img5" src="img/castleeltz.jpg" width="500">
+			<img class="img5" src="img/castleneuschwanstein.jpg" width="500">
+			<img class="img5" src="img/castlefantast.jpg" width="500">
+		</div>
+	</section>
+<!––VEŽBA 11––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 11</span>:</br>image slider lvl.2</h1>
+			<div id="wrap2">
+				<img class="img6" src="img/ecoh1.jpg" alt="" width="700px" height="400px">
+				<img class="img6" src="img/ecoh2.jpg" alt="" width="700px" height="400px">
+				<img class="img6" src="img/ecoh3.jpg" alt="" width="700px" height="400px">
+				<img class="img6" src="img/ecoh4.jpg" alt="" width="700px" height="400px">
+				<img class="img6" src="img/ecoh5.jpg" alt="" width="700px" height="400px">
+			</div>
+	</section>
+<!––VEŽBA 12––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 12</span>:</br>unos i prikaz podataka</h1>
+		<div class="flexroww"><p class="title2">lokacija:</p><input type="text" id="inp3"></input></div>
+		<div class="flexroww"><p class="title2">površina (m2):</p><input type="text" id="inp4"></input></div>
+		<div class="flexroww"><p class="title2">kvadratura (m2):</p><input type="text" id="inp5"></input></div>
+		<div class="flexroww"><p class="title2">cena (E):</p><input type="text" id="inp6"></input></div>
+		<button type="button" id="but11">UBACI PODATKE</button></br>
+		<div>
+			<table class="table1">
+				<tr><th class="title3" colspan="2">podaci:</th></tr>
+				<tr><th class="title4">Lokacija</th><td class="text2 tdata">...</td></tr>
+				<tr><th class="title4">Površina zemljišta (m2)</th><td class="text2 tdata">...</td></tr>
+				<tr><th class="title4">Kvadratura kuće (m2)</th><td class="text2 tdata">...</td></tr>
+				<tr><th class="title4">Cena (E)</th><td class="text2 tdata">...</td></tr>
+				<tr><th class="title4">Evra/m2 zemljišta</th><td class="text2 tdata">...</td></tr>
+				<tr><th class="title4">Evra/m2 kuće</th><td class="text2 tdata">...</td></tr>
+			</table>
+		</div>	
+	</section>
+<!––VEŽBA 13––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 13</span>:</br>unos i prikaz podataka koristeći objekte</h1>
+		<section>
+			<div class="imgsmall2">
+				<img src="img/zivPoMeda.jpg" width="300" height="300" class="thumb1" title="click">
+				<img src="img/zivKamila.jpg" width="300" height="300" class="thumb1" title="click">
+				<img src="img/zivAjkula.jpg" width="300" height="300" class="thumb1" title="click">
+				<img src="img/zivGorila.jpg" width="300" height="300" class="thumb1" title="click">
+				<img src="img/zivFlamin.jpg" width="300" height="300" class="thumb1" title="click">
+				<img src="img/zivLos.jpg" width="300" height="300" class="thumb1" title="click">
+				<img src="img/zivAfSlon.jpg" width="300" height="300" class="thumb1" title="click">
+				<img src="img/zivBTigar.jpg" width="300" height="300" class="thumb1" title="click">
+			</div>
+			<div class="tabletitle3 tdata2"></div>
+			<div class="wrap3">
+				<table class="table2">
+					<tr><th>kontinent:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>habitat:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>težina:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>visina:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>max brzina:</th><td class="text3 tdata2">...</td></tr>
+				</table>
+				<table class="table2">
+					<tr><th>boje:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>ishrana:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>mladunaca:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>životni vek:</th><td class="text3 tdata2">...</td></tr>
+					<tr><th>ugroženost:</th><td class="text3 tdata2">...</td></tr>
+				</table>
+			</div>
+		</section>	
+	</section>
+<!––VEŽBA 14––>	
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 14</span>:</br>face recognition game (use numpad)</h1>
+		<div class="wrap4">
+			<img id="img7" src="img/14travolta.jpg" width="400" height="400">
+			<div id="canvas2">
+				<div class="square1"></div>
+				<div class="square1"></div>
+				<div class="square1"></div>
+				<div class="square1"></div>
+				<div class="square1"></div>
+				<div class="square1"></div>
+				<div class="square1"></div>
+				<div class="square1"></div>
+				<div class="square1"></div>
+			</div>
+		</div>
+		<div class="flexroww">
+			<form>
+				<select id="select2">
+					<option id="pocetni"></option><option>Aretha Franklin</option><option>Gal Gadot</option>
+					<option>James Brown</option><option>Javier Bardem</option><option>Jean Reno</option>
+					<option>John Travolta</option><option>Mads Mikkelsen</option><option>Olga Kurylenko</option>
+					<option>Sylvester Stallone</option><option>Noomi Rapace</option><option>Tina Turner</option>
+				</select>
+			</form>
+			<button type="button" id="but12">Hit it!</button></br>
+		</div>
+	</section>
+<!––VEŽBA 15––>
+	<section class="prac flexcolw">
+		<h1 class="h1"><span class="u">VEŽBA 15</span>:</br>...</h1>
+		<div id="canvas3">
+			<div id="square2"><img id="land2" src="img/land2.jpg" width="140" height="140"></div>
+			<div id="square3"><img id="land3" src="img/land3.jpg" width="140" height="140"></div>
+			<div id="square4"><img id="land4" src="img/land4.jpg" width="140" height="140"></div>
+			<div id="square5"><img id="land5" src="img/land5.jpg" width="140" height="140"></div>
+			<div id="square6"><img id="land6" src="img/land6.jpg" width="140" height="140"></div>
+			<div id="square7"><img id="land7" src="img/land7.jpg" width="140" height="140"></div>
+			<div id="square8"><img id="land8" src="img/land8.jpg" width="140" height="140"></div>
+			<div id="square9"><img id="land9" src="img/land9.jpg" width="140" height="140"></div>
+			<div id="square10"><img id="land10" src="img/land10.jpg" width="140" height="140"></div>
+		</div>
+	</section>
+	<footer>
+		<p>Milan Šilić</br>Praksa: novembar 2018...</br>Novi Sad, Srbija</br>All Rights Reserved</p>
+	</footer>
+</main>
+<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>

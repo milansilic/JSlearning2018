@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta charset="utf-8">
+	<title>Obuka JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<main>
+		<a href="index.html" class="ico1"></a>
+		<a href="practice.html" class="ico2"></a>
+		<header>
+			Obuka programskih jezika
+		</header>
+		
+		<nav class="navico"> 
+			<ul>
+				<li><a href="index.html" class="aico1"></a></li>
+				<li><a href="practice.html" class="aico2"></a></li>
+			</ul>
+		</nav>
+
+		<nav class="navmain">
+			<ul>
+				<li><a href="html.html">HTML</a></li>
+				<li><a href="css.html">CSS</a></li>
+				<li class="undrln"><a href="js.html">JavaScript</a></li>
+			</ul>
+		</nav>
+
+		<section class="secmain">
+			<article class="mainarticle"> JavaScript je objektni skriptni jezik, koji služi za poboljšanje 
+			dinamike stranice. Pomoću JavaScripta kreiramo ponašanje elemenata na stranici. Kada se 
+			kombinuje sa HTML-om i CSS-om, tada nastaje takozvani dinamički HTML (DHTML).
+			</article>
+		</section>
+		
+		<section class="secmain">
+			<table class="table1">
+				<tr>
+					<th class="title3" colspan="4">Arithmetic Operators (aritmetički operatori)</th>
+				</tr>
+				<tr class="tableheading">
+					<td>operator</td>
+					<td>opis</td>
+					<td>primer(y=5)</td>
+					<td>rez X:</td>
+					<td>rez Y:</td>
+				</tr>
+				<tr>
+					<th>+</th>
+					<td class="text2">sabiranje</td>
+					<td>x = y + 2</td>
+					<td>x = 7</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>-</th>
+					<td class="text2">oduzimanje</td>
+					<td>x = y - 2</td>
+					<td>x = 3</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>*</th>
+					<td class="text2">množenje</td>
+					<td>x = y * 2</td>
+					<td>x = 10</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>/</th>
+					<td class="text2">deljenje</td>
+					<td>x = y / 2</td>
+					<td>x = 2.5</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>%</th>
+					<td class="text2">Modulus (division remainder)</td>
+					<td>x = y % 2</td>
+					<td>x = 1</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th rowspan="2">++</th>
+					<td rowspan="2" class="text2">Increment</td>
+					<td>x = ++y</td>
+					<td>x = 6</td>
+					<td>y = 6</td>
+				</tr>
+				<tr>
+					<td>x = y++</td>
+					<td>x = 5</td>
+					<td>y = 6</td>
+				</tr>
+				<tr>
+					<th rowspan="2">--</th>
+					<td rowspan="2" class="text2">Decrement</td>
+					<td>x = --y</td>
+					<td>x = 4</td>
+					<td>y = 4</td>
+				</tr>
+				<tr>
+					<td>x = y--</td>
+					<td>x = 5</td>
+					<td>y = 4</td>
+				</tr>
+			</table>
+		</section>
+		
+		<section class="secmain">
+			<table class="table1">
+				<tr>
+					<th class="title3" colspan="3">Comparison Operators (operatori poređenja)</th>
+				</tr>
+				<tr class="tableheading">
+					<td>operator</td>
+					<td>opis</td>
+					<td>primer(x=5)</td>
+					<td>vraća:</td>
+				</tr>
+				<tr>
+					<th rowspan="3">==</th>
+					<td rowspan="3" class="text2">jednaka vrednost</td>
+					<td>x == 8</td>
+					<td>FALSE</td>
+				</tr>
+				<tr>
+					<td>x == 5</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<td>x == "5"</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<th rowspan="2">===</th>
+					<td rowspan="2" class="text2">jednaka vrednost i jednak tip vrednosti</td>
+					<td>x === 5</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<td>x === "5"</td>
+					<td>FALSE</td>
+				</tr>
+				<tr>
+					<th>!=</th>
+					<td class="text2">nije jednaka vrednost</td>
+					<td>x != 8</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<th rowspan="3">!==</th>
+					<td rowspan="3" class="text2">nije jednaka vrednost ili tip vrednosti</td>
+					<td>x !== 5</td>
+					<td>FALSE</td>
+				</tr>
+				<tr>
+					<td>x !== "5"</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<td>x !== 8</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<th >></th>
+					<td class="text2">je veće od</td>
+					<td>x > 8</td>
+					<td>FALSE</td>
+				</tr>
+				<tr>
+					<th ><</th>
+					<td class="text2">je manje od</td>
+					<td>x < 8</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<th >>=</th>
+					<td class="text2">je veće ili jednako</td>
+					<td>x >= 8</td>
+					<td>FALSE</td>
+				</tr>
+				<tr>
+					<th ><=</th>
+					<td class="text2">je manje ili jednako</td>
+					<td>x <= 8</td>
+					<td>TRUE</td>
+				</tr>
+			</table>
+		</section>
+		<section class="secmain">
+			<table class="table1">
+				<tr>
+					<th class="title3" colspan="3">Logical Operators (logički operatori)</th>
+				</tr>
+				<tr class="tableheading">
+					<td>operator</td>
+					<td>opis</td>
+					<td>primer(x=6 y=3)</td>
+					<td>vraća</td>
+				</tr>
+				<tr>
+					<th >&&</th>
+					<td class="text2">and</td>
+					<td>(x < 10 && y > 1)</td>
+					<td>TRUE</td>
+				</tr>
+				<tr>
+					<th >||</th>
+					<td class="text2">or</td>
+					<td>(x == 5 || y == 5)</td>
+					<td>FALSE</td>
+				</tr>
+				<tr>
+					<th >!</th>
+					<td class="text2">not</td>
+					<td>!(x == y)</td>
+					<td>TRUE</td>
+				</tr>
+			</table>
+		</section>
+		<section class="secmain">
+			<table class="table1">
+				<tr>
+					<th class="title3" colspan="3">Assignment Operators (assignment operatori)</th>
+				</tr>
+				<tr class="tableheading">
+					<td>operator</td>
+					<td>primer (x=10 y=5)</td>
+					<td>isto što i</td>
+					<td>vraća</td>
+				</tr>
+				<tr>
+					<th >=</th>
+					<td>x = y</td>
+					<td></td>
+					<td>x = 5</td>
+				</tr>
+				<tr>
+					<th >+=</th>
+					<td>x += y</td>
+					<td>x = x + y</td>
+					<td>x = 15</td>
+				</tr>
+				<tr>
+					<th >-=</th>
+					<td>x -= y</td>
+					<td>x = x - y</td>
+					<td>x = 5</td>
+				</tr>
+				<tr>
+					<th >*=</th>
+					<td>x *= y</td>
+					<td>x = x * y</td>
+					<td>x = 50</td>
+				</tr>
+				<tr>
+					<th >/=</th>
+					<td>x /= y</td>
+					<td>x = x / y</td>
+					<td>x = 2</td>
+				</tr>
+				<tr>
+					<th >%=</th>
+					<td>x %= y</td>
+					<td>x = x % y</td>
+					<td>x = 0</td>
+				</tr>
+			</table>
+		</section>
+		<section class="secmain">
+			<table class="table1">
+				<tr>
+					<th class="title3" colspan="2">JavaScript EVENTS</th>
+				</tr>
+				<tr class="tableheading">
+					<td>event</td>
+					<td>opis</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onchange</th>
+					<td class="text2">HTML element has been changed</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onclick</th>
+					<td class="text2">user clicks an HTML element</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onmouseover</th>
+					<td class="text2">user moves the mouse over an HTML element</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onmouseout</th>
+					<td class="text2">user moves the mouse away from an HTML element</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onkeydown</th>
+					<td class="text2">user pushes a keyboard key</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onkeyup</th>
+					<td class="text2">user releases a keyboard key</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onkeypress</th>
+					<td class="text2">...</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>onload</th>
+					<td class="text2">the browser has finished loading the page</td>
+					<td></td>
+				</tr>
+			</table>
+		</section>
+		<footer>
+			<p>Milan Šilić</br>Praksa: novembar 2018...</br>Novi Sad, Srbija</br>All Rights Reserved</p>
+		</footer>
+	</main>
+	
+	<script type="text/javascript" src="scripts/script.js"></script>
+	
+</body>
+</html>

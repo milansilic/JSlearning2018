@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta charset="utf-8">
+	<title>Obuka CSS</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<main>
+		<a href="index.html" class="ico1"></a>
+		<a href="practice.html" class="ico2"></a>
+		<header>Obuka programskih jezika</header>
+		
+		<nav class="navico"> 
+			<ul>
+				<li><a href="index.html" class="aico1"></a></li>
+				<li><a href="practice.html" class="aico2"></a></li>
+			</ul>
+		</nav>
+
+		<nav class="navmain">
+			<ul>
+				<li><a href="html.html">HTML</a></li>
+				<li class="undrln"><a href="css.html">CSS</a></li>
+				<li><a href="js.html">JavaScript</a></li>
+			</ul>
+		</nav>
+		
+		<section class="secmain">
+			<article class="mainarticle"> CSS (Cascading Style Sheets) je jezik formatiranja pomoću kog se 
+			definiše izgled elemenata veb-stranice. CSS služi za stilizaciju osnovnih HTML elementata.
+			</article>
+		</section>
+		
+		<section class="secmain">
+			<table class="table3">
+				<tr>
+					<th class="title3" colspan="2">osnovni atributi:</th>
+				</tr>
+				<tr class="tableheading">
+					<td>properties</td>
+					<td>opis</td>
+				</tr>
+				<tr>
+					<th>color</th>
+					<td class="text2">boja teksta</td>
+				</tr>
+				<tr>
+					<th>line-height</th>
+					<td class="text2">visina reda teksta</td>
+				</tr>
+				<tr>
+					<th>font</th>
+					<td class="text2">svi font atributi i jednoj deklaraciji</td>
+				</tr>
+				<tr>
+					<th>margin</th>
+					<td class="text2">rastojanje od kontejnera do susednih elemenata</td>
+				</tr>
+				<tr>
+					<th>padding</th>
+					<td class="text2">rastojanje od elemenata u kontejneru do ivica kontejnera</td>
+				</tr>
+			</table>
+		</section>
+				
+		<section class="secmain">
+			<table class="table3">
+				<tr>
+					<th class="title3" colspan="3">osnovni atributi:</th>
+				</tr>
+				<tr class="tableheading">
+					<td>properties</td>
+					<td>opis</td>
+					<td>vrednosti</td>
+				</tr>		
+				<tr>
+					<th rowspan="4">display</th>
+					<td rowspan="4" class="text2">određuje ponašanje prikaza elementa</td>
+					<td>inline</td>
+				</tr>
+				<tr>
+					<td>block</td>
+				</tr>
+				<tr>
+					<td>inline-block</td>
+				</tr>
+				<tr>
+					<td>flex</td>
+				</tr>
+			</table>
+		</section>
+		
+		<section class="secmain">
+			<table class="table1">
+				<tr>
+					<th class="title3" colspan="3">display: flex;</th>
+				</tr>
+				<tr class="tableheading">
+					<td>properties</td>
+					<td>opis</td>
+					<td>vrednosti</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th rowspan="5">justify-content</th>
+					<td rowspan="5" class="text2">distribucija prostora izmedju elemenata na X osi</td>
+					<td>flex-start</td>
+					<td>default</td>
+				</tr>
+				<tr>
+					<td>flex-end</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>center</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>space-between</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>space-around</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th rowspan="5">align-items</th>
+					<td rowspan="5" class="text2">distribucija prostora izmedju elemenata na Y osi</td>
+					<td>stretch</td>
+					<td>default</td>
+				</tr>
+				<tr>
+					<td>flex-start</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>flex-end</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>center</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>baseline</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th rowspan="3">order</th>
+					<td rowspan="3" class="text2">definiše redosled elemenata</td>
+					<td>0</td>
+					<td>default</td>
+				</tr>
+				<tr>
+					<td>1,2,3...</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>-1-2-3...</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th rowspan="4">flex-direction</th>
+					<td rowspan="4" class="text2">definiše pravac ređanja elementa</td>
+					<td>row</td>
+					<td>default</td>
+				</tr>
+				<tr>
+					<td>row-reverse</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>column</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>column-reverse</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th rowspan="5">flex-wrap</th>
+					<td rowspan="5" class="text2">određuje da li će se elementi preklapati ili ne</td>
+					<td>nowrap</td>
+					<td>default</td>
+				</tr>
+				<tr>
+					<td>wrap</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>wrap-reverse</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>initial</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>inherit</td>
+					<td></td>
+				</tr>
+			</table>
+		</section>
+		
+		<footer>
+			<p>Milan Šilić</br>Praksa: novembar 2018...</br>Novi Sad, Srbija</br>All Rights Reserved</p>
+		</footer>
+	</main>
+	
+	<script type="text/javascript" src="scripts/script.js"></script>
+	
+</body>
+</html>
